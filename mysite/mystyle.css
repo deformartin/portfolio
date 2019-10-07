@@ -169,10 +169,10 @@ html {
   color: white;
 }
 
-.twitter {
+/*.twitter {
   background: rgba(85, 172, 238, 0.726);
   color: white;
-}
+}*/
 
 
 .linkedin {
@@ -184,6 +184,11 @@ html {
   background: #1f090933;
   color: white;
 }
+
+.gmail {
+  background: #1f090990;
+  color: white;
+  }
 
 .main {
  
@@ -475,7 +480,7 @@ html {
 footer{
   background: #0F0F0F;
   position: relative;
-  padding: 40px;
+  padding: 20px;
 }
 
 .footer-content{
