@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mart.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>how make a tea</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<div id="container">
+     <header>
+        <h1>How to make a ginger tea</h1>
+        <img src="https://i.imgur.com/oXPTS1P.jpg">
+        <p>At the very least, tea is a flavourful way of getting enough fluid into your body each day. On to of that, studies have shown teas can help protect your teeth and your heart.</p>
+    </header>
+    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+        <h2>
+        ingredients 
+        <i class="fa fa-coffee" aria-hidden="true"></i></h2>
+        <ul>
+          <li>Water</li>
+      <li>Lemon</li>
+      <li>Sugar/Honey/vanila sugar (Optional)</li>
+        </ul>
+    </section>
+    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+        <h2>preparation <i class="fa fa-check-circle-o" aria-hidden="true"></i></h2>
+        <ol>
+          <li>Blend your ginger.</li>
+          <li>Sieve and separate the chufs.</li>
+          <li>Add some sugar to according to your taste.</li>
+          <li>Add drops of lemon to make it more tasty.</li>
+          <li>Add some Water till you see no hip of giger particles.</li>
+          <li>Leave the resul overnight to process.</li>
+          </ol>
+    </section>
+    <footer>
+        <p>copyright me 2018</p>
+    </footer>
+</div>
+<script>
+   function ingredientsHover(){document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize="300%";}
+   function ingredientsNormal(){document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize="100%";}
+   function preparationHover(){document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize="300%";}
+   function preparationNormal(){document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize="100%";}
+</script>
+  </body>
+</html>

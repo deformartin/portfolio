@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+
+
+<style>
+    .grandparent {
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 60vw;
+        min-width: 400px;
+        height: 120vh;
+        max-height: 1000px;
+        background: white;
+        border: 2px solid grey;
+        
+    
+    }
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 60vw;
+        min-width: 400px;
+        max-height: 800px;
+
+        height: 100vh;
+        background: gold;
+    }
+
+    .childrect {
+        position: absolute;
+        width: 60vw;
+        height: 50vh;
+        max-height: 400px;
+        min-width: 400px;
+        background-color: red;
+        top: 50%;
+    }
+
+    .childbol {
+        position: absolute;
+        width: calc(60vw - 100px);
+        height: calc(60vw - 100px);
+        min-height: 80px;
+        min-width: 80px;
+        max-height: 60vh;
+        max-width: 60vh;
+        z-index: 5;
+        border-radius: 50%;
+        background: white;
+        box-shadow: 5px 10px 18px black;
+        border: 1vw dotted darkred;
+
+    }
+
+    #mouse {
+        height: 105%;
+        width: 105%;
+        right: 1vw;
+        position: absolute;
+    }
+
+    .voornaam {
+        color: black;
+        font-family: 'Dancing Script', cursive, helvetica;
+        font-size: calc(4vw + 4vh);
+        z-index: 10;
+        margin-top: 2vh;
+        color: gold;
+        height: 20%;
+        z-index: 100;
+        top: 90vh;
+        text-shadow: 1px 1px 2px black, 0 0 .5vw blue, 0 0 5px darkblue;
+        text-align: center;
+    }
+</style>
+<!--geen photoshop? download GIMP en ... https://www.youtube.com/watch?v=Z-ab54ZOT48-->
+
+<body>
+
+    <div class="grandparent">
+        <div class="zak">
+            <div class="container parent">
+
+                <div class="childbol">
+                    <img id="mouse" src="mouse.png" alt="">
+                </div>
+
+                <div class="childrect"></div>
+
+            </div>
+        </div>
+
+        <div class="voornaam">
+            Mickey
+        </div>
+
+    </div>
+
+</body>
+
+</html>
