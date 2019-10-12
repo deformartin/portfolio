@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div id="mybody" class="wholebody">
+  <div id="child" class="childbox">
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -19,15 +19,9 @@
       <a href="contact.html">Contact</a>
     </div>
     <div class="intro">
-      <h1>Welcome to my Portfolio</h1>
+      <h1 class="introh1">Welcome To My Portfolio</h1>
     </div>
-    <div class="intro">
-        <h1></h1>
-      </div>
-    <div class="scrollDiv">
-      <a href="#portfolio" id="arrows"><span></span><span></span><span></span></a>
-      <a href="#portfolio" id="link-to-main">Please Scroll Down</a>
-    </div>
+  </div>
   </div>
 
 
@@ -37,108 +31,123 @@
     <a href="https://gmail.com" class="gmail"><i class="fa fa-envelope"></i></a>
     <a href="https://github.com/deformartin" class="Github"><i class="fa fa-github"></i></a>
   </div>
-  
-  <div class="container-fluid" id="portfolio">
-      <h2>Portfolio</h2>
-  
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto1.gif">
-            <h4>Intec-Brussel Hover</h4>
-            <div class="overlay">
-              <h3><a href="https://deformartin.github.io/portfolio/intecsnb/evaluate.html" class="project-title" target="_blank">Intec-Brussel Hover</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto2.gif">
-            <h4>How to Make a Tea</h4>
-            <div class="overlay">
-              <h3> <a href="https://deformartin.github.io/portfolio/how%20to%20make%20a%20tea%20/evelyne.html" class="project-title" target="_blank">How to Make a Tea</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto3.gif">
-            <h4>Calculator Project</h4>
-            <div class="overlay">
-              <h3> <a href="https://deformartin.github.io/portfolio/Calculator/" class="project-title" target="_blank">Calculator Project</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto4.gif">
-            <h4>Micky Mouse Project</h4>
-            <div class="overlay">
-              <h3> <a href="https://deformartin.github.io/portfolio/mickeymouse/Mickey.html" class="project-title" target="_blank">Micky Mouse Project</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto5.gif">
-            <h4>Wintis Royal Seal Project</h4>
-            <div class="overlay">
-              <h3> <a href="http://www.wintisgh.com/" class="project-title" target="_blank">Wintis Royal Seal Project </a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto6.gif">
-            <h4>Life International School Project</h4>
-            <div class="overlay">
-              <h3><a href="http://www.lifeinternationalcollege.com/" class="project-title" target="_blank">Life International School Project</a></h3>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto7.gif">
-            <h4>Elam Agency Project</h4>
-            <div class="overlay">
-              <h3><a href="http://www.http://elamtravel.net/about.php" class="project-title" target="_blank">Elam Agency Project</a></h3>
-            </div>
+  <div id="potfo" class="container-fluid" id="portfolio">
+    <h2 class="whitetext">Portfolio</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto1.gif">
+          <!-- <h4 class="whitetext">Intec-Brussel Hover</h4> -->
+          <div class="overlay">
+            <h3><a href="https://deformartin.github.io/portfolio/intecsnb/evaluate.html" class="lighttext project-title"
+                target="_blank">Intec-Brussel Hover</a></h3>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto8.gif">
-            <h4>Contact Card Project</h4>
-            <div class="overlay">
-              <h3> <a href="https://deformartin.github.io/portfolio/Contact%20Card/" class="project-title" target="_blank">Contact Card Project</a></h3>
-            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto2.gif">
+          <!-- <h4 class="whitetext">How to Make a Tea</h4> -->
+          <div class="overlay">
+            <h3> <a href="https://deformartin.github.io/portfolio/how%20to%20make%20a%20tea%20/evelyne.html"
+                class="lighttext project-title" target="_blank">How to Make a Tea</a></h3>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="folio/porto9.gif">
-            <h4>Airline Ticket Project</h4>
-            <div class="overlay">
-              <h3> <a href="https://deformartin.github.io/portfolio/Contact%20Card/" class="project-title" target="_blank"> Airline Ticket Project</a></h3>
-            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto3.gif">
+          <!-- <h4 class="whitetext">Calculator Project</h4> -->
+          <div class="overlay">
+            <h3 class="lighttext"> <a class="lighttext" href="https://deformartin.github.io/portfolio/Calculator/"
+                class="project-title" target="_blank">Calculator Project</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto4.gif">
+          <!-- <h4 class="whitetext">Micky Mouse Project</h4> -->
+          <div class="overlay">
+            <h3 class="lighttext"> <a href="https://deformartin.github.io/portfolio/mickeymouse/Mickey.html"
+                class="lighttext project-title" target="_blank">Micky Mouse Project</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto5.gif">
+          <!-- <h4 class="whitetext">Wintis Royal Seal Project</h4> -->
+          <div class="overlay">
+            <h3> <a class="lighttext" href="http://www.wintisgh.com/" class="project-title" target="_blank">Wintis Royal
+                Seal Project </a>
+            </h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto6.gif">
+          <!-- <h4 class="whitetext">Life International School Project</h4> -->
+          <div class="overlay">
+            <h3><a class="lighttext" href="http://www.lifeinternationalcollege.com/" class="project-title"
+                target="_blank">Life
+                International School Project</a></h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto7.gif">
+          <!-- <h4 class="whitetext">Elam Agency Project</h4> -->
+          <div class="overlay">
+            <h3><a class="lighttext" href="http://www.http://elamtravel.net/about.php" class="project-title"
+                target="_blank">Elam Agency
+                Project</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto8.gif">
+          <!-- <h4 class="whitetext">Contact Card Project</h4> -->
+          <div class="overlay">
+            <h3 class="lighttext"> <a href="https://deformartin.github.io/portfolio/Contact%20Card/"
+                class="project-title lighttext" target="_blank">Contact Card Project</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <img class="imgfit" src="folio/porto9.gif">
+          <!-- <h4 class="whitetext">Airline Ticket Project</h4> -->
+          <div class="overlay">
+            <h3> <a href="https://deformartin.github.io/portfolio/Contact%20Card/" class="project-title lighttext"
+                target="_blank"> Airline Ticket Project</a></h3>
           </div>
         </div>
       </div>
-  
     </div>
 
-    <footer>
+  </div>
 
-        <div class="footer-content">
-    
-          <div>
-            <h4>LOCATION</h4>
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Square Du Solbosch 1050 Brussels</p>
-          </div>
-    
-          <div>
-            <h4>EMAIL</h4>
-            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> deformartin@gmail.com</p>
-          </div>
-    
-          <div>
-            <h4>PHONE</h4>
-            <p><i class="fa fa-phone" aria-hidden="true"></i> 04 89 02 32 43</p>
-          </div>
-        
-        <div>
-            <h4>SCAN ME or <a href="images/Martin_Defor_Front-end Developer.pdf" download="Martin_Defor_Front-end Developer" target="_blank"><h4>CLICK HERE <h4></a>TO DOWNLOAD CV</h4>
-            
-              <img src="images/mycv.png" alt="mycv" width="100" height="100" >
-            </div>
-        </div>
-    
-      </footer>
+  <footer>
+
+    <div class="footer-content">
+
+      <div>
+        <h4>LOCATION</h4>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Square Du Solbosch 1050 Brussels</p>
+      </div>
+
+      <div>
+        <h4>EMAIL</h4>
+        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> deformartin@gmail.com</p>
+      </div>
+
+      <div>
+        <h4>PHONE</h4>
+        <p><i class="fa fa-phone" aria-hidden="true"></i> 04 89 02 32 43</p>
+      </div>
+
+      <div>
+        <h4>SCAN ME or <a href="images/Martin_Defor_Front-end Developer.pdf" download="Martin_Defor_Front-end Developer"
+            target="_blank">
+            <h4>CLICK HERE <h4>
+          </a>TO DOWNLOAD CV</h4>
+
+        <img src="images/mycv.png" alt="mycv" width="100" height="100">
+      </div>
+    </div>
+
+  </footer>
 
 </body>
 
